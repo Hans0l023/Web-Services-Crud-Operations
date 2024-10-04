@@ -1,0 +1,49 @@
+[{
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6d"
+    },
+    "book_id": 1,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "Throne of Glass",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "1"
+  },{
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6e"
+    },
+    "book_id": 2,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "Crown of Midnight",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "2"
+  },{
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6f"
+    },
+    "book_id": 3,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "Heir of Fire",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "3"
+  },{
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e70"
+    },
+    "book_id": 4,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "The Assasin's Blade",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "4"
+  }]

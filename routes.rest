@@ -1,0 +1,54 @@
+//Local Host
+
+### Get all books
+GET http://localhost:3000/books
+
+### Get books by ID
+GET http://localhost:3000/books/67001fac09c7b1f5afd66d43 
+
+
+### Create book
+POST http://localhost:3000/books 
+Content-Type: application/json
+
+{  
+    "book_id": 5,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "Queen of Shadows",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "5"
+}
+
+### put book
+PUT http://localhost:3000/books/67001fac09c7b1f5afd66d43 
+Content-Type: application/json
+
+{
+    "book_id": 4,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "The Assasin's Blade",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "4"
+}
+
+
+### Delete an item by ID
+DELETE http://localhost:3000/books/67002067fa3dbc299b2f50a2
+Content-Type: application/json
+
+{
+    "book_id": 5,
+    "additionalInfo": false,
+    "series": "Throne of Glass",
+    "name": "Queen of Shadows",
+    "author_first": "Sarah ",
+    "author_middle": "J",
+    "author_last": "Maas",
+    "order_in_series": "5"
+}
