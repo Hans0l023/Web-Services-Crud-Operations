@@ -2,13 +2,13 @@ const validator = require('../helpers/validate');
 
 const savebook = (req, res, next) => {
   const validationRule = {
-    book_id: 'requires|string',
-    additionalInfo: 'string',
+    book_id: 'required|numeric',
+    additionalInfo: 'required|boolean',
     series: 'string',
-    name: 'requires|string',
-    author_first: 'requires|string',
-    author_middle: 'requires|string',
-    author_last: 'requires|string',
+    name: 'required|string',
+    author_first: 'required|string',
+    author_middle: 'required|string',
+    author_last: 'required|string',
     order_in_series: 'string'
   };
   validator(req.body, validationRule, {}, (err, status) => {
