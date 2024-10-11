@@ -34,12 +34,12 @@ Content-Type: application/json
     "author_first": "Sarah ",
     "author_middle": "J",
     "author_last": "Maas",
-    "order_in_series": "4"
+    "order_in_series": "1"
 }
 
 
 ### Delete an item by ID
-DELETE http://localhost:3000/books/
+DELETE http://localhost:3000/books/67016c04724d5b1170e29aee
 Content-Type: application/json
 
 {
